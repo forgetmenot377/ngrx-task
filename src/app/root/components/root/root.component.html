@@ -1,1 +1,23 @@
-<router-outlet></router-outlet>
+<main>
+  <section class="user-section">
+    <tabset>
+      <tab heading="First User">
+        <div class="buttons">
+          <button (click)="increment()">+</button>
+          <button (click)="decrement()">-</button>
+        </div>
+      </tab>
+      <tab heading="Second User">
+        <div class="buttons">
+          <button (click)="increment()">+</button>
+          <button (click)="decrement()">-</button>
+        </div>
+      </tab>
+    </tabset>
+  </section>
+  <section class="counter-section">
+    <h2>Counter</h2>
+    <p>{{counter$ | async}}</p>
+  </section>
+
+</main>

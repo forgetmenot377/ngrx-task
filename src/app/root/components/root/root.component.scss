@@ -1,0 +1,18 @@
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.user-section,
+.counter-section {
+  float: left;
+  width: 50%;
+  height: 200px;
+  padding: 2rem;
+  background: #BBFFFF;
+}
+
+.buttons {
+  margin-top: 1rem;
+  text-align: center;
+}
